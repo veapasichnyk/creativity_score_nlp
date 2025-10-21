@@ -35,10 +35,13 @@ jupyter notebook notebook/creativity_scoring.ipynb
 ```
 
 ## Результати
-Метрика	Значення
-MAE	0.30
-Spearman ρ	0.145
-Pearson r	0.106
+```
+Метрика	         Значення
+MAE	               0.30
+Spearman ρ	       0.145
+Pearson r	         0.106
+
+```
 
 **Найвпливовіші фічі: avg_word_len, hapax_ratio, bigram_entropy.**
 
@@ -55,7 +58,7 @@ Pearson r	0.106
 - узгодженість із людськими оцінками.
 
 
-## 📚 Dataset: Raw IELTS Essays (Kaggle)
+ **📚 Dataset: Raw IELTS Essays (Kaggle)**
 
 
-## 👩‍💻 Author: Veronika Pasichnyk
+**👩‍💻 Author: Veronika Pasichnyk**
