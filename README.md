@@ -33,17 +33,19 @@ CREATIVITY_SCORE_NLP/
 pip install -r requirements.txt
 jupyter notebook notebook/creativity_scoring.ipynb
 ```
-
+---
 ## Результати
 ```
 Метрика	         Значення
 MAE	               0.30
 Spearman ρ	       0.145
-Pearson r	         0.106
+Pearson r	       0.106
 
 ```
 
-**Найвпливовіші фічі: avg_word_len, hapax_ratio, bigram_entropy.**
+**Найвпливовіші фічі:** `avg_word_len`, `hapax_ratio`, `bigram_entropy`.
+
+---
 
 ## Висновок
 
@@ -57,8 +59,10 @@ Pearson r	         0.106
 
 - узгодженість із людськими оцінками.
 
+---
 
  **📚 Dataset: Raw IELTS Essays (Kaggle)**
 
+---
 
 **👩‍💻 Author: Veronika Pasichnyk**
